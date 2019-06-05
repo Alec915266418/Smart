@@ -1,0 +1,19 @@
+{
+	"version":2,
+	"name":"smart",
+	"builds":
+	[{
+	   "src":"index.js",
+	   "use","@now/node"
+	},
+	{
+	    "src":"package.json",
+	    "use":"@now/node"
+
+	}]
+	"routes":
+	[{
+	"src":"/.",
+	"dest":"/index.js"
+	}]
+}
